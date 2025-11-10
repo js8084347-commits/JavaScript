@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica js </title>
+    <style>
+        button {
+            color: rgb(255, 255, 255);
+            background-color: rgb(67, 221, 208);
+            padding: 20px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.alert("Olá, mundo! Este é o meu primeiro script JS!");
+        function exibirMensagemBoasVindas() {
+            window.alert(`Você clicou no botão! Olá de novo!!`);	
+        }
+
+        function perguntarNome() {
+            let nome = window.prompt("Por favor, digite o seu nome:");
+            window.alert(`Olá, ${nome}!, é um prazer te conhecer através desta página!`);
+        }
+
+        function troll() {
+            window.alert(`NÃO DEVERIA TER CLICADO AQUI! AGORA VOCÊ VAI VER ALGO PERTUBADOR !`);
+            window.open('https://gazetadocerrado.com.br/wp-content/uploads/2019/03/borboletas.jpg');
+        }
+
+    </script>
+
+    <h1>Interagindo com um botão</h1>
+    <button onclick="exibirMensagemBoasVindas()">Clique Aqui!</button>
+
+    <h1>Interagindo com um botão 2</h1>
+    <button onclick="perguntarNome()">Clique Aqui!</button>
+
+    <h1>NÃO INTERAJA COM ESTE BOTÃO</h1>
+    <button onclick="troll()">Clique Aqui!</button>
+
+
+    
+</body>
+</html>

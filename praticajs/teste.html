@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução à JS</title>
+<style>
+    button {
+        color: blue;
+        background-color: rgb(106, 106, 184);
+        padding: 20px;
+        border-radius: 50px;
+    }
+</style>
+</head>
+<body>
+<h1> Interagindo com um botão </h1>
+<button onclick="clicou()">Clique Aqui!</button> <!-- O uso do button onclick é uma função que vai ser usada assim que clicar no botão. -->
+<h1> Interagindo com um botão 2</h1>
+<button onclick="clicou2()"> Clique aqui!</button>
+<h1> Interaja com o botão 3</h1>
+<button onclick="clicou3()"> Clique aqui!</button>
+
+    <script>
+    function clicou() {
+        window.alert("Você clicou no botão"); /* Este é um exemplo d js interno*//* Após ser clicado, o window.alert vai nos trazer uma mensagem de que clicamos no botão */
+    }
+    function clicou2() {
+        let nome = window.prompt("Qual é o seu nome?"); /* O window.prompt vai abrir uma caixa de diálogo pedindo para o usuário digitar algo, neste caso, o nome. */
+        window.alert(`Olá. Seja bem-vindo ${nome}!, OLHA A PEDRA! `) /* Após o usuário digitar o nome, o window.alert vai mostrar uma mensagem de boas vindas com o nome digitado. */
+    }
+
+    function clicou3(){
+        window.open("https://www.youtube.com/watch?v=iTtnTGRwj5Q-n&amp;start=19"); /* O window.open vai abrir uma nova aba no navegador com o site especificado. */
+        
+    }
+    </script>
+</body>
+</html>
