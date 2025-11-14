@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    margin-top: 40px;
+    width: 90%;
+    max-width: auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    
+    }
+    
+    
+    h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    
+    .input-area {
+    display: flex;
+    gap: 10px;
+    }
+    
+    
+    input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    }
+    
+    
+    button {
+    padding: 10px 16px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1rem;
+    }
+    
+    
+    button:hover {
+    background: #2563eb;
+    }
+    
+    
+    #clearBtn {
+    background: #ef4444;
+    }
+    
+    
+    #clearBtn:hover {
+    background: #dc2626;
+    }
+    
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+    
+    
+    li {
+    background: #f9fafb;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: 0.2s;
+    }
+    
+    
+    li:hover {
+    transform: translateX(3px);
+    }
+    
+    
+    .done {
+    text-decoration: line-through;
+    color: gray;
+    }
+    
+    
+    .remove-item {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    font-weight: bold;
+    }
